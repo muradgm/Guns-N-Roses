@@ -1,17 +1,19 @@
-# Band landing page
+# Guns n Roses Landing Page
+###### Create a small React app for your favorite band or group.
 
-Create a small React app for your favorite band or group.
+## Demo
+  ![Exercise Demo](./gnsNroses.gif "Title Text - Guns 'N Roses")
 
-Your navigation should contain as many items as the members of your band (4+ members. We all love Daft Punk but we need more routes).
 
-Use the [react-router](https://reactrouter.com/) package to handle your navigation.  
-Your solution doesn't have to have any transitions by default.
+## What have i achieved:
+1. the navigation should contain as many items as the members of your band
+2. Use the [react-router](https://reactrouter.com/) package to handle the navigation.  
+3. Add some page transition 
 
-![](preview.gif)
 
-# BONUS
-
-You can experiment with transitions between pages as well. Here are some interesting libraries:
-
-- https://reactcommunity.org/react-transition-group/
-- https://www.framer.com/motion/
+##### Modules/Packages/Libraries used:
+   ```
+   react: ^17.0.2
+   react-router-dom: ^6.2.1
+   framer-motion: ^6.2.6
+   ```

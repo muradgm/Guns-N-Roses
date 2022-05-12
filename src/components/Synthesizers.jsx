@@ -7,7 +7,7 @@ const Synthesizers = () => {
       const pageVariants = {
   initial: {
     opacity: 0,
-    x: "-100vw",
+    x: "100vw",
     scale: 0.8
   },
   in: {
@@ -28,15 +28,9 @@ const pageTransition = {
   duration: 0.5
 };
 
-// const pageStyle = {
-//   position: "absolute"
-// };
-
-
   return (
     <div className='wrapper'>
     <motion.div
-      // style={pageStyle}
       initial="initial"
       animate="in"
       exit="out"

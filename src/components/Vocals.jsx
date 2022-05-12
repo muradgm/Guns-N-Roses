@@ -9,7 +9,7 @@ const Vocals = () => {
   const pageVariants = {
   initial: {
     opacity: 0,
-    x: "-100vw",
+    x: "100vw",
     scale: 0.8
   },
   in: {
@@ -20,7 +20,7 @@ const Vocals = () => {
   out: {
     opacity: 0,
     x: "100vw",
-    scale: 1.2
+    scale: 0.8
   }
 };
 
@@ -29,24 +29,19 @@ const pageTransition = {
   ease: "anticipate",
   duration: 0.5
 };
-
-// const pageStyle = {
-//   position: "absolute"
-// };
-
+  
   return (
     <div className='wrapper'>
-  <motion.div
-      // style={pageStyle}
-      initial="initial"
-      animate="in"
-      exit="out"
-      variants={pageVariants}
-      transition={pageTransition}
-    >
-      <p>Axl Rose .</p>
-      <img src={image} alt="Axl Rose"/>
-  </motion.div>
+      <motion.div
+          initial="initial"
+          animate="in"
+          exit="out"
+          transition={pageTransition}
+          variants={pageVariants}
+        >
+          <p>Axl Rose .</p>
+          <img src={image} alt="Axl Rose"/>
+      </motion.div>
     </div>
   )
 }
