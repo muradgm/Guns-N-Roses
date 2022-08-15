@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Guns-N-Roses/static/css/main.c12cb066.css",
-    "main.js": "/Guns-N-Roses/static/js/main.3af7a815.js",
+    "main.css": "/Guns-N-Roses/static/css/main.fb3564fe.css",
+    "main.js": "/Guns-N-Roses/static/js/main.f4f1bfb5.js",
     "static/media/slash.jpg": "/Guns-N-Roses/static/media/slash.37fa1db6cc8b64c91190.jpg",
     "static/media/axl-rose.jpg": "/Guns-N-Roses/static/media/axl-rose.bdb7fd65804c554c8735.jpg",
     "static/media/richard.jpg": "/Guns-N-Roses/static/media/richard.07bd81b7db682ba6f9f8.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.png": "/Guns-N-Roses/static/media/logo.a69bece0cbf152a6a2f8.png",
     "static/media/duff.jpg": "/Guns-N-Roses/static/media/duff.f59adee46ddd4c87ed2e.jpg",
     "index.html": "/Guns-N-Roses/index.html",
-    "main.c12cb066.css.map": "/Guns-N-Roses/static/css/main.c12cb066.css.map",
-    "main.3af7a815.js.map": "/Guns-N-Roses/static/js/main.3af7a815.js.map"
+    "main.fb3564fe.css.map": "/Guns-N-Roses/static/css/main.fb3564fe.css.map",
+    "main.f4f1bfb5.js.map": "/Guns-N-Roses/static/js/main.f4f1bfb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c12cb066.css",
-    "static/js/main.3af7a815.js"
+    "static/css/main.fb3564fe.css",
+    "static/js/main.f4f1bfb5.js"
   ]
 }
