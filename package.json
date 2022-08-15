@@ -1,6 +1,6 @@
 {
   "name": "GunsN'Roses",
-  "homepage":"https://muradgm.github.io/GunsN-Roses",
+  "homepage":"https://muradgm.github.io/Guns-N-Roses",
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",

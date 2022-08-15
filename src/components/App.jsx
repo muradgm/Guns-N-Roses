@@ -22,7 +22,7 @@ export default function App() {
 
       <AnimatePresence exitBeforeEnter initial={false}>
         <Routes location={location} key={location.pathname}>
-          <Route path="/GunsN-Roses" element={<Home />} />
+          <Route path="/Guns-N-Roses" element={<Home />} />
           <Route path="vocals" element={<Vocals />} />
           <Route path="bass" element={<Bass />} />
           <Route path="guitar" element={<Guitar />} />

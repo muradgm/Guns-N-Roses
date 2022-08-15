@@ -50,7 +50,7 @@ const Navbar = () => {
       className="nav-section"
     >
       <motion.div style={{ overflow: "hidden" }}>
-        <NavLink to="/GunsN-Roses">
+        <NavLink to="/Guns-N-Roses">
           <motion.img
             className="logo"
             src={logo}
